@@ -36,6 +36,16 @@
         "Name": "time",
         "Type": "System.TimeOnly",
         "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_id",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -68,6 +78,48 @@
         "Name": "authModel",
         "Type": "lapushki_api.Requests.AuthModel",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PaymentsService",
+    "Method": "CheckPaymentStatus",
+    "RelativePath": "checkPaymentStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PaymentsService",
+    "Method": "CreatePayment",
+    "RelativePath": "createPayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -280,6 +332,16 @@
       {
         "Name": "time",
         "Type": "System.TimeOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "payment_id",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

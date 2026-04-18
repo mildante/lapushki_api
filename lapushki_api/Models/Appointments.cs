@@ -24,5 +24,7 @@ namespace lapushki_api.Models
 
         public DateOnly date { get; set; }
         public TimeOnly time {  get; set;}
+        public string status { get; set; } = "Pending";
+        public string? payment_id { get; set; }
     }
 }

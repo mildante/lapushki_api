@@ -2,6 +2,7 @@ using lapushki_api.Data;
 using lapushki_api.Interfaces;
 using lapushki_api.Services;
 using Microsoft.EntityFrameworkCore;
+using static lapushki_api.Models.Payments;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Services.AddDbContext<ContextDb>(
 builder.Services.Configure<YooKassaOptions>(
     builder.Configuration.GetSection("YooKassa"));
 
+builder.Services.AddScoped<IPaymentsService, PaymentsService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAppointmentsService, AppointmentsService>();
 builder.Services.AddScoped<IPetService, PetService>();

@@ -12,5 +12,7 @@ namespace lapushki_api.Requests
         public int pet_id { get; set; }
         public DateOnly date { get; set; }
         public TimeOnly time { get; set; }
+        public string status { get; set; } = "Pending";
+        public string? payment_id { get; set; }
     }
 }

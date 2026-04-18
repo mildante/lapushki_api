@@ -52,23 +52,32 @@ namespace lapushki_api.Services
 
         public async Task<IActionResult> AddAppointment(AppointmentModel appointmentModel)
         {
-            var newAppointment = new Appointments()
+            try
+            {var newAppointment = new Appointments()
             {
                 doctor_id = appointmentModel.doctor_id,
                 service_id = appointmentModel.service_id,
                 pet_id = appointmentModel.pet_id,
                 date = appointmentModel.date,
                 time = appointmentModel.time,
+                status = "Pending",
+
             };
 
             await _ContextDb.AddAsync(newAppointment);
             await _ContextDb.SaveChangesAsync();
 
-            return new OkObjectResult(new
+                return new OkObjectResult(new
+                {
+                    status = true,
+                    message = "Запись зарегистрирована",
+                    newAppointment
+                });
+            }
+            catch (Exception ex)
             {
-                status = true,
-                message = "Запись зарегистрирован"
-            });
+                return new BadRequestObjectResult(ex.Message);
+            }
         }
 
         public async Task<IActionResult> UpdateAppointment(AppointmentModel appointmentModel)
