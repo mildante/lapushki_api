@@ -1,0 +1,320 @@
+[
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "AddAppointment",
+    "RelativePath": "addAppointment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctor_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pet_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "time",
+        "Type": "System.TimeOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PetController",
+    "Method": "AddPet",
+    "RelativePath": "addPet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "petModel",
+        "Type": "lapushki_api.Requests.PetModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "AuthUser",
+    "RelativePath": "authorize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authModel",
+        "Type": "lapushki_api.Requests.AuthModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "DeleteAppointment",
+    "RelativePath": "deleteAppointment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PetController",
+    "Method": "DeletePet",
+    "RelativePath": "deletePet",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pet_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "deleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllAppointments",
+    "RelativePath": "getAllAppointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllAppointmentsByDoctor",
+    "RelativePath": "getAllAppointmentsByDoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllAppointmentsByUser",
+    "RelativePath": "getAllAppointmentsByUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "getAllDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllDoctorServices",
+    "RelativePath": "getAllDoctorServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PetController",
+    "Method": "GetAllPets",
+    "RelativePath": "getAllPets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PetController",
+    "Method": "GetAllPetsByUser",
+    "RelativePath": "getAllPetsByUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "GetAllServices",
+    "RelativePath": "getAllServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "getAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "RegistrationUser",
+    "RelativePath": "registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "lapushki_api.Requests.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "UpdateAppointment",
+    "RelativePath": "updateAppointment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "doctor_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "service_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pet_id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "time",
+        "Type": "System.TimeOnly",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.PetController",
+    "Method": "UpdatePet",
+    "RelativePath": "updatePet",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "petModel",
+        "Type": "lapushki_api.Requests.PetModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "updateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "lapushki_api.Requests.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
