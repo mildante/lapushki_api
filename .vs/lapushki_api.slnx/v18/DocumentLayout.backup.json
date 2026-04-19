@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\services\\appointmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\services\\appointmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\requests\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\requests\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\interfaces\\ipaymentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,11 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Requests\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "lapushki_api\\Requests\\AppointmentModel.cs",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Requests\\AppointmentModel.cs",
+              "RelativeToolTip": "lapushki_api\\Requests\\AppointmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:11:04.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Appointments.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\Appointments.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\Appointments.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\appsettings.json",
               "RelativeDocumentMoniker": "lapushki_api\\appsettings.json",
@@ -83,25 +100,24 @@
               "RelativeToolTip": "lapushki_api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-18T21:55:54.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T21:55:54.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AppointmentsService.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\AppointmentsService.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Services\\AppointmentsService.cs",
-              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\AppointmentsService.cs*",
-              "RelativeToolTip": "lapushki_api\\Services\\AppointmentsService.cs*",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwE4AAAA+AAAAAAAAAA==",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\AppointmentsService.cs",
+              "RelativeToolTip": "lapushki_api\\Services\\AppointmentsService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAxwFAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T21:51:10.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Program.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Program.cs",
@@ -113,31 +129,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Controllers\\PaymentsController.cs",
               "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\PaymentsController.cs",
               "RelativeToolTip": "lapushki_api\\Controllers\\PaymentsController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwA8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T13:16:42.103Z"
+              "WhenOpened": "2026-04-17T13:16:42.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Controllers\\AppointmentsController.cs",
               "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\AppointmentsController.cs",
               "RelativeToolTip": "lapushki_api\\Controllers\\AppointmentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwD4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T06:28:20.108Z"
+              "WhenOpened": "2026-04-15T06:28:20.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IPaymentsService.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Interfaces\\IPaymentsService.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Interfaces\\IPaymentsService.cs",
@@ -149,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PaymentsService.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\PaymentsService.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Services\\PaymentsService.cs",
@@ -161,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Services\\UserService.cs",
@@ -173,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserModel.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Requests\\UserModel.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Requests\\UserModel.cs",
@@ -185,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\User.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\User.cs",
@@ -197,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Controllers\\UserController.cs",

@@ -8,44 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "doctor_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "service_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pet_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "date",
-        "Type": "System.DateOnly",
-        "IsRequired": false
-      },
-      {
-        "Name": "time",
-        "Type": "System.TimeOnly",
-        "IsRequired": false
-      },
-      {
-        "Name": "status",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "payment_id",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "appointmentModel",
+        "Type": "lapushki_api.Requests.AppointmentModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -107,19 +72,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Amount",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "AppointmentId",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "lapushki_api.Models.Payments\u002BCreatePaymentRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -305,44 +260,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "doctor_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "service_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pet_id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "date",
-        "Type": "System.DateOnly",
-        "IsRequired": false
-      },
-      {
-        "Name": "time",
-        "Type": "System.TimeOnly",
-        "IsRequired": false
-      },
-      {
-        "Name": "status",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "payment_id",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "appointmentModel",
+        "Type": "lapushki_api.Requests.AppointmentModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

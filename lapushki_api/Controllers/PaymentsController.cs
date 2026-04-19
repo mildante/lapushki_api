@@ -14,7 +14,7 @@ namespace lapushki_api.Controllers
 
         [HttpPost]
         [Route("createPayment")]
-        public async Task<IActionResult> CreatePayment(CreatePaymentRequest request)
+        public async Task<IActionResult> CreatePayment([FromBody] CreatePaymentRequest request)
         {
             return await _paymentsService.CreatePayment(request);
         }

@@ -57,14 +57,14 @@ namespace lapushki_api.Controllers
 
         [HttpPost]
         [Route("addAppointment")]
-        public async Task<IActionResult> AddAppointment(AppointmentModel appointmentModel)
+        public async Task<IActionResult> AddAppointment([FromBody] AppointmentModel appointmentModel)
         {
             return await _appointmentsService.AddAppointment(appointmentModel);
         }
 
         [HttpPut]
         [Route("updateAppointment")]
-        public async Task<IActionResult> UpdateAppointment(AppointmentModel appointmentModel)
+        public async Task<IActionResult> UpdateAppointment([FromBody] AppointmentModel appointmentModel)
         {
             return await _appointmentsService.UpdateAppointment(appointmentModel);
         }
