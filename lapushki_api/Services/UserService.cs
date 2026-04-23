@@ -4,8 +4,12 @@ using lapushki_api.Models;
 using lapushki_api.Requests;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Numerics;
 using System.Reflection;
+using System.Security.Claims;
+using System.Text;
 using System.Xml.Linq;
 
 namespace lapushki_api.Services
@@ -18,7 +22,49 @@ namespace lapushki_api.Services
         {
             _ContextDb = ContextDb;
         }
+        private string GenerateJwtToken(int userId)
+        {
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("FBvVYnUa1JOqCGw8KjAS3XPRwjkqNSdpcOgkfKfNHT4d63DwbALx7PeVyrxe2Is4"));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+            };
+
+            var token = new JwtSecurityToken(
+                claims: claims,
+                expires: DateTime.UtcNow.AddDays(1),
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<IActionResult> AuthByToken(ClaimsPrincipal claims)
+        {
+            var userId = claims.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return new UnauthorizedResult();
+            }
+
+            int id = int.Parse(userId);
+
+            var user = await _ContextDb.Users.FirstOrDefaultAsync(x => x.id_user == id);
+
+            if (user == null)
+            {
+                return new OkObjectResult(new { status = false, error = "не найден пользователь" });
+            }
+
+            return new OkObjectResult(new
+            {
+                status = true,
+                user
+            });
+        }
         public async Task<IActionResult> RegistrationUser(UserModel userModel)
         {
             var isEmailNotUnique = await _ContextDb.Users.AnyAsync(x => x.email == userModel.email);
@@ -36,6 +82,7 @@ namespace lapushki_api.Services
                 phone = userModel.phone,
                 password = userModel.password,
                 gender = userModel.gender,
+                avatar = "http://localhost:5276/images/default-avatar.png",
                 date_of_birth = userModel.date_of_birth,
                 role_id = 3
             };
@@ -57,9 +104,12 @@ namespace lapushki_api.Services
             if (user == null)
                 return new OkObjectResult(new { status = false, message = "Пользователь не найден"});
 
+            var token = GenerateJwtToken(user.id_user);
+
             return new OkObjectResult(new
             {
                 status = true,
+                token,
                 user = user,
                 message = "Вход выполнен"
             });
@@ -87,6 +137,7 @@ namespace lapushki_api.Services
             user.phone = userModel.phone;
             user.password = userModel.password;
             user.gender = userModel.gender;
+            user.avatar = userModel.avatar;
             user.date_of_birth = userModel.date_of_birth;
 
             _ContextDb.Update(user);

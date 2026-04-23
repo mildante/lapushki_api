@@ -1,0 +1,5 @@
+wwwroot\images\bigle.webp
+wwwroot\images\default-avatar.png
+wwwroot\images\hachi icon.jpg
+wwwroot\images\kryska laryska.png
+wwwroot\images\btdly.jpg

@@ -165,6 +165,9 @@ namespace lapushki_api.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("image")
+                        .HasColumnType("text");
+
                     b.Property<string>("name")
                         .IsRequired()
                         .HasColumnType("text");
@@ -207,6 +210,9 @@ namespace lapushki_api.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id_user"));
+
+                    b.Property<string>("avatar")
+                        .HasColumnType("text");
 
                     b.Property<DateOnly>("date_of_birth")
                         .HasColumnType("date");

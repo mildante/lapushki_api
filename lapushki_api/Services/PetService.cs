@@ -60,6 +60,7 @@ namespace lapushki_api.Services
             pet.gender = petModel.gender;
             pet.date_of_birth = petModel.date_of_birth;
             pet.user_id = petModel.user_id;
+            pet.image = petModel.image;
 
             await _ContextDb.SaveChangesAsync();
 
@@ -71,6 +72,13 @@ namespace lapushki_api.Services
         }
         public async Task<IActionResult> DeletePet(int pet_id)
         {
+            var appointments = _ContextDb.Appointments.Where(x=>x.pet_id == pet_id).ToList();
+
+            foreach (var appointment in appointments)
+            {
+                _ContextDb.Remove(appointment);
+            }
+
             var pet = await _ContextDb.Pets.FirstOrDefaultAsync(x => x.id_pet == pet_id);
 
             if (pet == null)
@@ -85,6 +93,7 @@ namespace lapushki_api.Services
                 message = "Удаление успешно"
             });
         }
+
 
         
     }

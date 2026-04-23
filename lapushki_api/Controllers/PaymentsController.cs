@@ -20,10 +20,10 @@ namespace lapushki_api.Controllers
         }
 
         [HttpGet]
-        [Route("checkPaymentStatus")]
-        public async Task<IActionResult> CheckPaymentStatus(string paymentId)
+        [Route("checkPaymentStatusByAppointment")]
+        public async Task<IActionResult> CheckPaymentStatusByAppointment(int appointmentId)
         {
-            return await _paymentsService.CheckPaymentStatus(paymentId);
+            return await _paymentsService.CheckPaymentStatusByAppointment(appointmentId);
         }
     }
 }

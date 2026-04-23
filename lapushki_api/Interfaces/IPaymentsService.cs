@@ -6,6 +6,6 @@ namespace lapushki_api.Interfaces
     public interface IPaymentsService
     {
         Task<IActionResult> CreatePayment(CreatePaymentRequest request);
-        Task<IActionResult> CheckPaymentStatus(string paymentId);
+        Task<IActionResult> CheckPaymentStatusByAppointment(int appointmentId);
     }
 }

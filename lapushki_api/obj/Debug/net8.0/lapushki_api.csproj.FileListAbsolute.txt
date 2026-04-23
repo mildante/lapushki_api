@@ -115,3 +115,12 @@ D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\obj\Debug\net8.0\ref\lapushki
 D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Yandex.Checkout.V3.dll
 D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\obj\Debug\net8.0\lapushki_api.sourcelink.json
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\lapushki_api.staticwebassets.runtime.json
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\study\KTITS\kursovaya\lapushki_api\lapushki_api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

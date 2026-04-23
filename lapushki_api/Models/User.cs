@@ -14,6 +14,7 @@ namespace lapushki_api.Models
         public string phone { get; set; }
         public string password { get; set; }
         public string gender { get; set; }
+        public string? avatar { get; set; }
         public DateOnly date_of_birth { get; set; }
 
         [Required]

@@ -181,6 +181,38 @@
         }
       }
     },
+    "/uploadImage": {
+      "post": {
+        "tags": [
+          "Image"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/createPayment": {
       "post": {
         "tags": [
@@ -212,17 +244,18 @@
         }
       }
     },
-    "/checkPaymentStatus": {
+    "/checkPaymentStatusByAppointment": {
       "get": {
         "tags": [
           "PaymentsService"
         ],
         "parameters": [
           {
-            "name": "paymentId",
+            "name": "appointmentId",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -343,6 +376,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/authUserByToken": {
+      "get": {
+        "tags": [
+          "User"
         ],
         "responses": {
           "200": {
@@ -578,6 +623,10 @@
             "type": "string",
             "nullable": true
           },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
           "date_of_birth": {
             "type": "string",
             "format": "date"
@@ -617,6 +666,10 @@
             "nullable": true
           },
           "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "avatar": {
             "type": "string",
             "nullable": true
           },

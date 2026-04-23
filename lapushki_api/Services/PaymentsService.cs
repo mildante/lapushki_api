@@ -33,7 +33,7 @@ namespace lapushki_api.Services
                     Confirmation = new Confirmation
                     {
                         Type = ConfirmationType.Redirect,
-                        ReturnUrl = _options.ReturnUrl
+                        ReturnUrl = $"{_options.ReturnUrl}?appointmentId={request.AppointmentId}"
                     },
                     Capture = true,
                     Description = request.Description,
@@ -60,28 +60,34 @@ namespace lapushki_api.Services
             }
         }
 
-        public async Task<IActionResult> CheckPaymentStatus(string paymentId)
+        public async Task<IActionResult> CheckPaymentStatusByAppointment(int appointmentId)
         {
             try
             {
+                var appointment = await _contextDb.Appointments.FirstOrDefaultAsync(x => x.id == appointmentId);
+
+                if (appointment == null || string.IsNullOrEmpty(appointment.payment_id))
+                {
+                    return new BadRequestObjectResult(new
+                    {
+                        status = false,
+                        error = "Платеж для записи не найден"
+                    });
+                }
+
                 var client = new Client(_options.ShopId, _options.SecretKey);
-                var payment = client.GetPayment(paymentId);
+                var payment = client.GetPayment(appointment.payment_id);
 
                 if (payment.Status == PaymentStatus.Succeeded)
                 {
-                    var appointment = _contextDb.Appointments.FirstOrDefault(x => x.payment_id == paymentId);
-
-                    if (appointment != null )
-                    {
-                        appointment.status = "Paid";
-                        await _contextDb.SaveChangesAsync();
-                    }
+                    appointment.status = "Paid";
+                    await _contextDb.SaveChangesAsync();
                 }
 
                 return new OkObjectResult(new
                 {
                     status = true,
-                    paymentStatus = payment.Status
+                    paymentStatus = payment.Status.ToString()
                 });
             }
             catch (Exception ex)

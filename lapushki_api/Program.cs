@@ -1,7 +1,10 @@
 using lapushki_api.Data;
 using lapushki_api.Interfaces;
 using lapushki_api.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using static lapushki_api.Models.Payments;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +27,27 @@ builder.Services.AddScoped<IPaymentsService, PaymentsService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAppointmentsService, AppointmentsService>();
 builder.Services.AddScoped<IPetService, PetService>();
+builder.Services.AddScoped<IImageService, ImageService>();
+
+var key = Encoding.UTF8.GetBytes("FBvVYnUa1JOqCGw8KjAS3XPRwjkqNSdpcOgkfKfNHT4d63DwbALx7PeVyrxe2Is4");
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key)
+    };
+});
+
+builder.Services.AddAuthorization();
 
 builder.Services.AddCors(options =>
 {
@@ -36,6 +60,9 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+app.UseStaticFiles();
+
 app.UseCors("AllowBlazorWasm");
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,6 @@
 ﻿using lapushki_api.Requests;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace lapushki_api.Interfaces
 {
@@ -10,7 +11,6 @@ namespace lapushki_api.Interfaces
         Task<IActionResult> GetAllUser();
         Task<IActionResult> UpdateUser(UserModel userModel);
         Task<IActionResult> DeleteUser(int user_id);
-
-
+        Task<IActionResult> AuthByToken(ClaimsPrincipal claims);
     }
 }

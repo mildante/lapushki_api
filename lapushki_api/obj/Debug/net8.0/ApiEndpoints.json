@@ -48,16 +48,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "lapushki_api.Controllers.UserController",
+    "Method": "AuthUserByToken",
+    "RelativePath": "authUserByToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "lapushki_api.Controllers.PaymentsService",
-    "Method": "CheckPaymentStatus",
-    "RelativePath": "checkPaymentStatus",
+    "Method": "CheckPaymentStatusByAppointment",
+    "RelativePath": "checkPaymentStatusByAppointment",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "paymentId",
-        "Type": "System.String",
+        "Name": "appointmentId",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -295,6 +305,22 @@
         "Name": "userModel",
         "Type": "lapushki_api.Requests.UserModel",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.ImageController",
+    "Method": "UploadImage",
+    "RelativePath": "uploadImage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

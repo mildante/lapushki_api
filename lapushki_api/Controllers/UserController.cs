@@ -12,6 +12,12 @@ namespace lapushki_api.Controllers
             _userService = userService;
         }
 
+        [HttpGet("authUserByToken")]
+        public async Task<IActionResult> AuthUserByToken()
+        {
+            return await _userService.AuthByToken(User);
+        }
+
         [HttpPost]
         [Route("registration")]
         public async Task<IActionResult> RegistrationUser([FromBody] UserModel userModel)
