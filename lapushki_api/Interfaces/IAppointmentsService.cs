@@ -7,7 +7,9 @@ namespace lapushki_api.Interfaces
     {
         Task<IActionResult> GetAllServices();
         Task<IActionResult> GetAllDoctors();
-        Task<IActionResult> GetAllDoctorServices();
+        Task<IActionResult> CreateDoctor(CreateDoctorRequest request);
+        Task<IActionResult> UpdateDoctor(DoctorModel doctorModel);
+        Task<IActionResult> DeleteDoctor(int doctor_id);
         Task<IActionResult> GetAllAppointments();
         Task<IActionResult> GetAllAppointmentsByUser(int user_id);
         Task<IActionResult> GetAllAppointmentsByDoctor(int doctor_id);

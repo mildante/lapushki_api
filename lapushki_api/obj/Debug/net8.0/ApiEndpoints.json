@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "CreateDoctor",
+    "RelativePath": "addDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "lapushki_api.Requests.CreateDoctorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "lapushki_api.Controllers.PetController",
     "Method": "AddPet",
     "RelativePath": "addPet",
@@ -99,6 +115,22 @@
     "Parameters": [
       {
         "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "DeleteDoctor",
+    "RelativePath": "deleteDoctor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor_id",
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -190,16 +222,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
-    "Method": "GetAllDoctorServices",
-    "RelativePath": "getAllDoctorServices",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "lapushki_api.Controllers.PetController",
     "Method": "GetAllPets",
     "RelativePath": "getAllPets",
@@ -272,6 +294,22 @@
       {
         "Name": "appointmentModel",
         "Type": "lapushki_api.Requests.AppointmentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "lapushki_api.Controllers.AppointmentsController",
+    "Method": "UpdateDoctor",
+    "RelativePath": "updateDoctor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorModel",
+        "Type": "lapushki_api.Requests.DoctorModel",
         "IsRequired": true
       }
     ],

@@ -29,10 +29,82 @@
         }
       }
     },
-    "/getAllDoctorServices": {
-      "get": {
+    "/addDoctor": {
+      "post": {
         "tags": [
           "Appointments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/updateDoctor": {
+      "put": {
+        "tags": [
+          "Appointments"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoctorModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoctorModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoctorModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/deleteDoctor": {
+      "delete": {
+        "tags": [
+          "Appointments"
+        ],
+        "parameters": [
+          {
+            "name": "doctor_id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -578,6 +650,55 @@
         },
         "additionalProperties": false
       },
+      "CreateDoctorRequest": {
+        "type": "object",
+        "properties": {
+          "specialization": {
+            "type": "string",
+            "nullable": true
+          },
+          "work_start": {
+            "type": "string",
+            "format": "time"
+          },
+          "work_end": {
+            "type": "string",
+            "format": "time"
+          },
+          "duration_slot": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "date_of_birth": {
+            "type": "string",
+            "format": "date"
+          },
+          "is_active": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreatePaymentRequest": {
         "type": "object",
         "properties": {
@@ -592,6 +713,42 @@
           "appointmentId": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DoctorModel": {
+        "type": "object",
+        "properties": {
+          "id_doctor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "specialization": {
+            "type": "string",
+            "nullable": true
+          },
+          "work_start": {
+            "type": "string",
+            "format": "time"
+          },
+          "work_end": {
+            "type": "string",
+            "format": "time"
+          },
+          "duration_slot": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "is_active": {
+            "type": "boolean"
+          },
+          "id_user": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
           }
         },
         "additionalProperties": false
@@ -634,6 +791,72 @@
           "user_id": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Role": {
+        "type": "object",
+        "properties": {
+          "id_role": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "required": [
+          "role_id"
+        ],
+        "type": "object",
+        "properties": {
+          "id_user": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "avatar": {
+            "type": "string",
+            "nullable": true
+          },
+          "date_of_birth": {
+            "type": "string",
+            "format": "date"
+          },
+          "role_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "role": {
+            "$ref": "#/components/schemas/Role"
           }
         },
         "additionalProperties": false

@@ -1,28 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using lapushki_api.Models;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
 
-namespace lapushki_api.Models
+namespace lapushki_api.Requests
 {
-    public class Doctor
+    public class DoctorModel
     {
-        [Key]
         public int id_doctor { get; set; }
         public string specialization { get; set; }
         public TimeOnly work_start { get; set; }
         public TimeOnly work_end { get; set; }
         public int duration_slot { get; set; }
         public bool is_active { get; set; }
-
-        [Required]
-        [ForeignKey("user")]
         public int id_user { get; set; }
         public User user { get; set; }
-
-        [JsonIgnore]
-        public ICollection<Appointments> appointments { get; set; }
-
-
-
     }
 }

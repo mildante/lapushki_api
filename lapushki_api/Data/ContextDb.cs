@@ -14,7 +14,6 @@ namespace lapushki_api.Data
         public DbSet<Pet> Pets { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<ClinicServices> ClinicServices { get; set; }
-        public DbSet<DoctorService> DoctorServices { get; set; }
         public DbSet<Appointments> Appointments { get; set; }
     }
 }

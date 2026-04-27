@@ -27,11 +27,25 @@ namespace lapushki_api.Controllers
             return await _appointmentsService.GetAllDoctors();
         }
 
-        [HttpGet]
-        [Route("getAllDoctorServices")]
-        public async Task<IActionResult> GetAllDoctorServices()
+        [HttpPost]
+        [Route("addDoctor")]
+        public async Task<IActionResult> CreateDoctor([FromBody] CreateDoctorRequest request)
         {
-            return await _appointmentsService.GetAllDoctorServices();
+            return await _appointmentsService.CreateDoctor(request);
+        }
+
+        [HttpPut]
+        [Route("updateDoctor")]
+        public async Task<IActionResult> UpdateDoctor([FromBody] DoctorModel doctorModel)
+        {
+            return await _appointmentsService.UpdateDoctor(doctorModel);
+        }
+
+        [HttpDelete]
+        [Route("deleteDoctor")]
+        public async Task<IActionResult> DeleteDoctor(int doctor_id)
+        {
+            return await _appointmentsService.DeleteDoctor(doctor_id);
         }
 
         [HttpGet]

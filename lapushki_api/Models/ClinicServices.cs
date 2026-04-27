@@ -8,10 +8,6 @@ namespace lapushki_api.Models
         [Key] public int id_service { get; set; }
         public string name { get; set; }
         public decimal price { get; set; }
-        public int duration { get; set; }
-
-        [JsonIgnore]
-        public ICollection<DoctorService> doctor_services { get; set; }
         
         [JsonIgnore]
         public ICollection<Appointments> appointments { get; set; }

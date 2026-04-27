@@ -1,5 +1,9 @@
-wwwroot\images\bigle.webp
 wwwroot\images\default-avatar.png
+wwwroot\images\jessy.jpg
+wwwroot\images\bigle.webp
 wwwroot\images\hachi icon.jpg
 wwwroot\images\kryska laryska.png
+wwwroot\images\clipart298879 (2).png
+wwwroot\images\emergency.jpg
 wwwroot\images\btdly.jpg
+wwwroot\images\reks.jpg

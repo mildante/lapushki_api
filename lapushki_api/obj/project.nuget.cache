@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YSFUaVZdTLs=",
+  "dgSpecHash": "1+Lf/xI6RV4=",
   "success": true,
   "projectFilePath": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\lapushki_api.csproj",
   "expectedPackageFiles": [
@@ -107,11 +107,7 @@
     "C:\\Users\\milam\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\milam\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\milam\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\milam\\.nuget\\packages\\yandex.checkout.v3\\4.3.1\\yandex.checkout.v3.4.3.1.nupkg.sha512",
-    "C:\\Users\\milam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\milam\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\milam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\milam\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.26\\microsoft.netcore.app.host.win-x64.8.0.26.nupkg.sha512"
+    "C:\\Users\\milam\\.nuget\\packages\\yandex.checkout.v3\\4.3.1\\yandex.checkout.v3.4.3.1.nupkg.sha512"
   ],
   "logs": []
 }
