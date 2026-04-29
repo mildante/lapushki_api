@@ -6,4 +6,5 @@ wwwroot\images\kryska laryska.png
 wwwroot\images\clipart298879 (2).png
 wwwroot\images\emergency.jpg
 wwwroot\images\btdly.jpg
+wwwroot\images\doctor-anna.png
 wwwroot\images\reks.jpg

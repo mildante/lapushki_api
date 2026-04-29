@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\data\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\data\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\interfaces\\iappointmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\interfaces\\iappointmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\models\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\services\\appointmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\data\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\data\\contextdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\models\\clinicservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\models\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|solutionrelative:lapushki_api\\services\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63CB2F51-B885-CCE8-89DB-72A8A022DCF2}|lapushki_api\\lapushki_api.csproj|d:\\study\\ktits\\kursovaya\\lapushki_api\\lapushki_api\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,35 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20260426161227_removeUnusedObj.cs",
-              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
-              "RelativeDocumentMoniker": "lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
-              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
-              "RelativeToolTip": "lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T16:12:28.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ContextDb.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Data\\ContextDb.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Data\\ContextDb.cs",
               "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Data\\ContextDb.cs",
               "RelativeToolTip": "lapushki_api\\Data\\ContextDb.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADgvxAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvxMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T16:11:31.717Z"
+              "WhenOpened": "2026-04-26T16:11:31.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ClinicServices.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\ClinicServices.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\ClinicServices.cs",
@@ -114,20 +103,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "lapushki_api\\Services\\UserService.cs",
-              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\UserService.cs",
-              "RelativeToolTip": "lapushki_api\\Services\\UserService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T10:07:13.097Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\appsettings.json",
+              "RelativeDocumentMoniker": "lapushki_api\\appsettings.json",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\appsettings.json",
+              "RelativeToolTip": "lapushki_api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T15:08:01.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AppointmentsService.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\AppointmentsService.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Services\\AppointmentsService.cs",
@@ -145,13 +133,49 @@
               "RelativeDocumentMoniker": "lapushki_api\\Interfaces\\IAppointmentsService.cs",
               "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Interfaces\\IAppointmentsService.cs",
               "RelativeToolTip": "lapushki_api\\Interfaces\\IAppointmentsService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T18:46:24.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Program.cs",
+              "RelativeDocumentMoniker": "lapushki_api\\Program.cs",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Program.cs",
+              "RelativeToolTip": "lapushki_api\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:12:58.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PetService.cs",
+              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\PetService.cs",
+              "RelativeDocumentMoniker": "lapushki_api\\Services\\PetService.cs",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\PetService.cs",
+              "RelativeToolTip": "lapushki_api\\Services\\PetService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:25:21.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260426161227_removeUnusedObj.cs",
+              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
+              "RelativeDocumentMoniker": "lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
+              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
+              "RelativeToolTip": "lapushki_api\\Migrations\\20260426161227_removeUnusedObj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T16:12:28.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Controllers\\AppointmentsController.cs",
@@ -163,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Doctor.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\Doctor.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\Doctor.cs",
@@ -175,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Controllers\\UserController.cs",
@@ -187,19 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Program.cs",
-              "RelativeDocumentMoniker": "lapushki_api\\Program.cs",
-              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Program.cs",
-              "RelativeToolTip": "lapushki_api\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T05:12:58.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Appointments.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\Appointments.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\Appointments.cs",
@@ -211,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DoctorModel.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Requests\\DoctorModel.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Requests\\DoctorModel.cs",
@@ -223,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Pet.cs",
               "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Models\\Pet.cs",
               "RelativeDocumentMoniker": "lapushki_api\\Models\\Pet.cs",
@@ -232,18 +244,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T05:27:05.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PetService.cs",
-              "DocumentMoniker": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\PetService.cs",
-              "RelativeDocumentMoniker": "lapushki_api\\Services\\PetService.cs",
-              "ToolTip": "D:\\study\\KTITS\\kursovaya\\lapushki_api\\lapushki_api\\Services\\PetService.cs",
-              "RelativeToolTip": "lapushki_api\\Services\\PetService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T05:25:21.417Z"
             },
             {
               "$type": "Document",
