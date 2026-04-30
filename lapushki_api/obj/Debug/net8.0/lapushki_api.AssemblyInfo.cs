@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lapushki_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb62b392dee3444929bef24b4b65a03855c7af8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb32dbb6c72a1917401a1bb95523b3a5c4500ade")]
 [assembly: System.Reflection.AssemblyProductAttribute("lapushki_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lapushki_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
